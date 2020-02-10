@@ -12,6 +12,7 @@ I have a good logical thinking, so i have a good ability to build an algorithm. 
 ## Code 
 Reference to my **GitHub** repositories: https://github.com/khvalkoilya?tab=repositories.
 ## Education & Experience
-Laboratory work in BSUIR (console apps on C++) according to the program. Study at Rolling Scopes School (you can see the examples of the code in my GitHub repos)
+Laboratory work in BSUIR (console apps on C++) according to the program, including 
+two course projects. Study at Rolling Scopes School (you can see the examples of the code in my GitHub repos).
 ## English level
 A2+. I have learning English for 12 years(11 at school and 1 year technical English in BSUIR).
