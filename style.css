@@ -1,0 +1,24 @@
+body{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background:url("https://html5book.ru/wp-content/uploads/2016/09/background74.jpg")
+}
+.name {
+    border: 5px solid #202721;
+    width: 30%;
+    padding: 10px;
+
+}
+p, h2, li{
+    font-family: Helvetica;
+    font-size: 20px;
+    color: #202721;
+}
+h2{
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
