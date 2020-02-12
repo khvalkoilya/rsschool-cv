@@ -4,47 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css">
     <title>Document</title>
 </head>
 <body>
     <header>
+        <div class="name-block">
         <h2 class="name">
-            My name is Illia Khvalko
+            Illia Khvalko
         </h2>
-        <img src="me.jpg" width=330 alt="">
+        </div>
+        <nav>
+            <ul>
+                <li class="navbar"><a href="#su">summary</a></li>
+                <li class="navbar"><a href="#sk">skills</a></li>
+                <li class="navbar"><a href="#ed">education</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
+        <div class="photo-contact">
+        <img src="me.jpg" width=350 alt="">
         <h2 class="contact">
-            Contact
+            Contacts
         </h2>
-            <ul>
-                <li>Viber/Phone number : +375(29)147-42-31</li>
-                <li>Telegram : @chval9</li>
-                <li>E-mail : khvalko.ilya@gmail.com</li>
-                <li>Social networks
-                    <ul class="networks">
-                        <li><a href="https://vk.com/chval9">VK</a></li>
-                        <li><a href="https://www.linkedin.com/in/ilya-khvalko-1b8ab2174/">Linkedin</a></li>
-                    </ul>
-                </li>
+            <ul class="contact-ul">
+                <li>Viber/Phone number : <a class="contacts-linkes">+375(29)147-42-31</a></li>
+                <li>Telegram : <a class="contacts-linkes">@chval9</a></li>
+                <li>E-mail : <a class="contacts-linkes">khvalko.ilya@gmail.com</a></li>         
+                <li><a class="contacts-linkes" href="https://vk.com/chval9">VK</a></li>
+                <li><a class="contacts-linkes" href="https://www.linkedin.com/in/ilya-khvalko-1b8ab2174/">Linkedin</a></li>
+                <li><a class="contacts-linkes" href="https://github.com/khvalkoilya">GitHub</a></li>
             </ul>
-        <h2 class="summary">Summary</h2>
-        <p>My goal is experience, because i am a beginner.<br>
+        </div>
+        <h2 class="summary"><a name="su">Summary</</h2>
+        <p class="summary-text">My goal is experience, because i am a beginner.<br>
         I wish to get as much knowledge as possible. I have a lot of enthusiasm's and energy, so i want to evolve always. 
         In future i want to be a great specialist, work in great team and be there useful. 
         I'm a student of Belarusian State University of Informatics and Radioelectronics, 
         and want to combine my study in university and work/studing on courses.</p>
-        <h2 class="skills">Skills</h2>
-        <p>I have a good logical thinking, so i have a good ability to build an algorithm. 
+        <h2 class="skills"><a name="sk">Skills</a></h2>
+        <p class="skills-text">I have a good logical thinking, so i have a good ability to build an algorithm. 
             I have a not bad base on C++, understand linux terminal. Have a satisfactory base in HTML5/CSS3.</p>
-        <h2 class="code">Code</h2>
-        <p>Reference to my <strong>GitHub</strong> repositories: <a href="https://github.com/khvalkoilya?tab=repositories">https://github.com/khvalkoilya?tab=repositories</a>.</p>
-        <h2 class="education">Education & Experience</h2>
-        <p>Laboratory work in BSUIR (console apps on C++) according to the program, including two course projects. 
-            Study at Rolling Scopes School (you can see the examples of the code in my GitHub repos).</p>
-        <h2 class="english">English level</h2>
-        <p>A2+. I have learning English for 12 years(11 at school and 1 year technical English in BSUIR).</p>
+        <h2 class="education"><a name="ed">Education & Experience</a></h2>
+        <p class="education-text">Laboratory work in BSUIR (console apps on C++) according to the program, including two course projects. 
+            Study at Rolling Scopes School (you can see the examples of the code in my GitHub repos).<br>
+           I have A2+ english level. I have learning English for 12 years(11 at school and 1 year technical English in BSUIR).</br>
     </main>
 </body>
 </html>
